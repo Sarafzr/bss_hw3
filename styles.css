@@ -7,6 +7,6 @@
     padding: 20px;
 }
 
-.About-Me button:hover {
+.About-button:hover {
     transform: scale(1.2); 
 }
