@@ -1,4 +1,4 @@
-.About-Me {
+.about-me { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,6 +7,17 @@
     padding: 20px;
 }
 
-.About-button:hover {
-    transform: scale(1.2); 
+.about-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: #ff85a2; 
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
+
+.about-button:hover {
+    transform: scale(1.2);
+    background-color: #ff608b;
