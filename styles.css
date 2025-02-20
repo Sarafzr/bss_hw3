@@ -1,13 +1,14 @@
 .about-me { 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     gap: 20px; 
     flex-wrap: wrap; 
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .about-button {
+    display: block;
     padding: 10px 20px;
     font-size: 16px;
     border: none;
@@ -21,3 +22,4 @@
 .about-button:hover {
     transform: scale(1.2);
     background-color: #ff608b;
+}
